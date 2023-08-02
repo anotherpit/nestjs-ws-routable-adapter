@@ -57,7 +57,7 @@ gateway will responde with
   "data": {
     "data": "data",
     "route": "ping/42",
-    "param": "42",
+    "param": "42"
   }
 }
 ```
@@ -67,4 +67,4 @@ gateway will responde with
 
 Since this library extends the build-in [WsAdapter](https://docs.nestjs.com/websockets/adapter#ws-library) 
 from [the `@nestjs/platform-ws` package](https://www.npmjs.com/package/@nestjs/platform-ws), 
-versioning of this library will follow versioning of NestJs.  
+versioning of this library will follow versioning of NestJs (patch versions might differ).  
