@@ -1,6 +1,6 @@
 {
   "name": "@anotherpit/nestjs-ws-routable-adapter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extended version on NestJs' WsAdapter that supports route parameters",
   "main": "dist/index.js",
   "author": "anotherpit <anotherpit@gmail.com>",
