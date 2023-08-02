@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-ws-routable-adapter",
+  "name": "@anotherpit/nestjs-ws-routable-adapter",
   "version": "0.0.1",
   "description": "Extended version on NestJs' WsAdapter that supports route parameters",
   "main": "dist/index.js",
@@ -19,6 +19,7 @@
     "lint": "eslint 'src/**/**.ts'",
     "lint:fix": "npm run lint -- --fix",
     "prepack": "npm run build",
+    "publish": "npm publish --access public",
     "test": "ts-mocha --type-check src/**/*.spec.ts",
     "test:dev": "ts-mocha -w --watch-files 'src/**/*.ts' --type-check src/**/*.spec.ts"
   },
@@ -41,6 +42,10 @@
     "superwstest": "^2.0.3",
     "ts-mocha": "^10.0.0",
     "typescript": "^5.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anotherpit/nestjs-ws-routable-adapter.git"
   },
   "files": [
     "dist"

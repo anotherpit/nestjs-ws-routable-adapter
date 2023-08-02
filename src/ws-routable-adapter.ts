@@ -5,8 +5,6 @@ import {EMPTY, Observable} from 'rxjs'
 
 /**
  * Extended version of {@link WsAdapter} that supports parameterized message routing similar to HTTP.
- *
- * TODO: documentation
  */
 export class WsRoutableAdapter extends WsAdapter {
   protected override readonly logger = new Logger(WsRoutableAdapter.name)
