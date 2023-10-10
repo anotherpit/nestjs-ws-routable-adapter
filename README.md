@@ -1,7 +1,7 @@
 # WsRoutableAdapter for [NestJS](https://nestjs.com/)
 
-Extended version on NestJs' WsAdapter that supports route parameters,
-similar to those of HTTP controllers:
+Extended version of NestJs' WsAdapter that supports route parameters,
+similar to those of HTTP controllers.
 
 ## Usage 
 
