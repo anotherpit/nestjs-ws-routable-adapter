@@ -1,6 +1,6 @@
 {
   "name": "@anotherpit/nestjs-ws-routable-adapter",
-  "version": "10.2.10",
+  "version": "10.3.0",
   "description": "Extended version on NestJs' WsAdapter that supports route parameters",
   "main": "dist/index.js",
   "author": "anotherpit <anotherpit@gmail.com>",
@@ -23,24 +23,24 @@
     "test:dev": "ts-mocha -w --watch-files 'src/**/*.ts' --type-check src/**/*.spec.ts"
   },
   "dependencies": {
-    "@nestjs/common": "10.2.10",
-    "@nestjs/platform-ws": "10.2.10",
-    "@nestjs/websockets": "10.2.10",
+    "@nestjs/common": "10.3.0",
+    "@nestjs/platform-ws": "10.3.0",
+    "@nestjs/websockets": "10.3.0",
     "path-to-regexp": "3.2.0",
     "rxjs": "7.8.1"
   },
   "devDependencies": {
-    "@nestjs/platform-express": "10.2.10",
-    "@nestjs/testing": "10.2.10",
-    "@types/mocha": "10.0.4",
-    "@typescript-eslint/eslint-plugin": "6.11.0",
-    "@typescript-eslint/parser": "6.11.0",
-    "eslint": "8.53.0",
-    "eslint-config-prettier": "9.0.0",
-    "prettier": "3.1.0",
+    "@nestjs/platform-express": "10.3.0",
+    "@nestjs/testing": "10.3.0",
+    "@types/mocha": "10.0.6",
+    "@typescript-eslint/eslint-plugin": "6.14.0",
+    "@typescript-eslint/parser": "6.14.0",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "prettier": "3.1.1",
     "superwstest": "^2.0.3",
     "ts-mocha": "^10.0.0",
-    "typescript": "5.2.2"
+    "typescript": "5.3.3"
   },
   "repository": {
     "type": "git",
